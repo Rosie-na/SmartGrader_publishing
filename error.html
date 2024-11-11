@@ -15,30 +15,24 @@
     <body>
         <div class="wrapper">
 
-            <!-- 상단바 영역 시작 -->
-            <header>
-                <div class="gnb-wrapper">
-                    <button type="button" class="btn-home">처음으로</button>
-                    <div class="logo">smart grader</div>
-                    <div class="area"></div>
-                </div>
-            </header>
-            <!-- 상단바 영역 끝 -->            
- 
-
             <!-- 컨텐츠 영역 시작-->
             <div class="content-wrapper">
+
+                <!-- 상단 버튼 시작 -->
+                <div class="gnb-wrapper">
+                    <button type="button" class="btn-home">처음으로</button>
+                </div>
+                <!-- 상단 버튼 끝 -->    
+
                 <div class="inner">
                     <div class="tit-area">
-                        <h1>서랍을 열고<br>삼겹살을 올려주세요.</h1>
-                        <p>반드시 삼겹살 만을 넣어주시기 바랍니다.</p>
+                        <h1><sapn class="red">서랍을 열고</sapn><br>삼겹살을 올려주세요.</h1>
+                        <p>❶ 반드시 삼겹살 만을 넣어주시기 바랍니다.<br>
+                        ❷ 가이드선에 맞춰주시기 바랍니다.</p>
                     </div>
 
                     <div class="guide-area">
                         <div class="content">
-                            <div class="textBox">
-                                <p>가이드 선에 맞춰주세요.</p>
-                            </div>
                             <div class="imgBox">   
                                 <img src="images/contents/guide.png"/>
                             </div>
@@ -48,7 +42,7 @@
                     <div class="process-area">
                         <div class="content">
                             <div class="textBox">
-                                <p>삼겹살 스캔 방법</p>
+                                <p>삼겹살 AI 분석 방법</p>
                             </div>
                             <div class="tableBox">
                                 <div class="list">
@@ -80,7 +74,7 @@
                                         <img src="images/contents/process_04.png"/>
                                         <div>
                                             <p class="num">04</p>
-                                            <p class="text">스캔하기<br>버튼을 누른다.</p>
+                                            <p class="text">스캔 버튼을<br>누른다.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -92,11 +86,12 @@
             <!-- 컨텐츠 영역 끝-->
 
 
-            <!-- 스캔하기 버튼 영역 시작-->
+            <!-- 하단 버튼 영역 시작-->
             <div class="btn-wrapper">
-                <button type="button">스캔하기</button>
+                <button type="button" class="btn-cancel">취소</button>
+                <button type="button" class="btn-scan">스캔</button>
             </div>
-            <!-- 스캔하기 버튼 영역 끝-->
+            <!-- 하단 버튼 영역 끝-->
 
 
             <!-- 오류 모달 팝업 시작 -->
