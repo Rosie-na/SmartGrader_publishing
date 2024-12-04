@@ -471,8 +471,8 @@ body {
     text-align: center;
 }
 .content-wrapper .inner .info-area .content .itm img{ 
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 /* 지방 정보 */
 
