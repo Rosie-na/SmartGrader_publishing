@@ -463,12 +463,18 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
+    align-items: center;
+    height: 230px;
+    width: 672px;
 }
 .content-wrapper .inner .info-area .content .itm .img { 
     width: 324px;
     height: 236px;
     overflow: hidden;
     text-align: center;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
 }
 .content-wrapper .inner .info-area .content .itm img{ 
     width: 100%;
