@@ -475,10 +475,11 @@ body {
     background-color: #000000;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .content-wrapper .inner .info-area .content .itm img{ 
-    width: 100%;
-    height: auto;
+    max-width: 324px;
+    max-height: 236px;
 }
 /* 지방 정보 */
 
